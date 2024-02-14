@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+/* Style the forgot password form */
+.forgot-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the input field */
+.forgot-form input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.forgot-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style the title */
+.forgot-form h1 {
+  text-align: center;
+  color: #333;
+}
+</style>
+</head>
+<body>
+
+<div class="forgot-form">
+  <h1>Forgot Password?</h1>
+  <p>Please enter your email address and we will send you a link to reset your password.</p>
+  <form action="/action_page.php" method="post">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="submit" value="Send">
+  </form>
+</div>
+
+</body>
+</html>
