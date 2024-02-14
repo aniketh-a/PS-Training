@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+/* Style the registration form */
+.registration-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the input fields */
+.registration-form input[type=email], .registration-form input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.registration-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style the title */
+.registration-form h1 {
+  text-align: center;
+  color: #333;
+}
+</style>
+</head>
+<body>
+
+<div class="registration-form">
+  <h1>Register</h1>
+  <form action="/action_page.php" method="post">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="password" name="password" placeholder="Enter your password" required>
+    <input type="password" name="repassword" placeholder="Re-enter your password" required>
+    <input type="submit" value="Register">
+  </form>
+</div>
+
+</body>
+</html>
+
