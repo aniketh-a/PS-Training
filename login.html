@@ -1,0 +1,51 @@
+<html>
+<head>
+<style>
+/* Style the login form */
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the input fields */
+.login-form input[type=text], .login-form input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.login-form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style the title */
+.login-form h1 {
+  text-align: center;
+  color: #333;
+}
+</style>
+</head>
+<body>
+
+<div class="login-form">
+  <h1>Login</h1>
+  <form action="/action_page.php" method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="submit" value="Login">
+  </form>
+</div>
+
+</body>
+</html>
+
